@@ -1,0 +1,9 @@
+name = "redis"
+type = "webpack"
+account_id = "cc304fe3090532316db428efc043aa21"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+[env.production]
+name = "redis-production"
+webpack_config = "webpack.config.js"
