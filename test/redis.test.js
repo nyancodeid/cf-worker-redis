@@ -10,7 +10,7 @@ describe('Worker Test', function () {
   it('it will be return sessionId', function () {
     const session = services.createSessionId()
 
-    should(session).have.property('success', true)
+    should(session).have.property('succes', true)
   })
 
   it('it will be successfully set key', async function () {
